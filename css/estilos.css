@@ -53,7 +53,7 @@ header{
     top: 0;
     right: 0;
     width: 30vw;
-    height: 100px;
+    height: 100%;
     background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
     display: flex;
     flex-direction: column;
@@ -266,7 +266,7 @@ footer{
     justify-content: flex-end;
 }
 
-.social-media-icons{
+.social-media-icon{
     display: inline-block;
     margin-left: 20px;
     width: 60px;
@@ -281,7 +281,7 @@ footer{
     color: #fff;
 }
 
-.social-media-icons:hover{
+.social-media-icon:hover{
     background: #fff;
     color: #764ba2;
 }
@@ -300,6 +300,8 @@ footer{
     margin-bottom: 60px;
 
 }
+
+
 @media screen and (max-width:800px){
     .menu-navegacion{
         width: 50vw;
